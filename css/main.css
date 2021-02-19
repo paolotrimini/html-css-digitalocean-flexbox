@@ -83,8 +83,8 @@ nav {
 
 nav ul {
     list-style-type: none;
+    margin-top: 5px;
 }
-
 
 .box-menu li {
     display: inline-block;
@@ -96,6 +96,16 @@ nav ul {
 .box-menu li a {
     display: inline-block;
     color: #5B6987;
+}
+
+.btn_signup {
+    border: 1px solid #0067ff;
+    border-radius: 3px;
+}
+
+.box-menu .btn_signup a {
+    color: #0067ff;
+    padding: 4px 6px;
 }
 
 
@@ -225,36 +235,7 @@ form div:last-child a {
 
 /* PARTNERS */
 
-#partners .box-section h5 {
-    text-transform: uppercase;
-    color: #5B6987;
-}
-
-#partners .box-section a {
-    color: #0069ff;
-    padding-top: 30px;
-}
-
-#partners {
-    background-color: #f3f5f9;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-
-#partners ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-#partners ul li {
-    list-style-type: none;
-}
-
-
-
-/*#box-partners {
+#box-partners {
     background-color: #f3f5f9;
     text-align: center;
     padding: 20px 0;
@@ -269,14 +250,14 @@ form div:last-child a {
 #box-partners .text-bottom {
     color: #0069ff;
     padding-top: 10px;
-}*/
+}
 
-/* LOGHI */
-
-/*.box-loghi img {
+.box-loghi img {
     height: 70px;
     width: 100%;
-}*/
+}
+
+
 
 /* DEPLOY */
 
