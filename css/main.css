@@ -365,7 +365,10 @@ form div:last-child a {
 
 .feat_box {
     display: flex;
-    justify-content: space-between;
+}
+
+.feat_paragr {
+    padding-bottom: 50px;
 }
 
 
