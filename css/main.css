@@ -79,7 +79,6 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 nav ul {
@@ -92,14 +91,12 @@ nav ul {
     font-size: 12px;
     color: #5B6987;
     padding: 0 7px;
-
 }
 
 .box-menu li a {
     display: inline-block;
     color: #5B6987;
 }
-
 
 
 .ham-menu {
@@ -228,7 +225,36 @@ form div:last-child a {
 
 /* PARTNERS */
 
-#box-partners {
+#partners .box-section h5 {
+    text-transform: uppercase;
+    color: #5B6987;
+}
+
+#partners .box-section a {
+    color: #0069ff;
+    padding-top: 30px;
+}
+
+#partners {
+    background-color: #f3f5f9;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#partners ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#partners ul li {
+    list-style-type: none;
+}
+
+
+
+/*#box-partners {
     background-color: #f3f5f9;
     text-align: center;
     padding: 20px 0;
@@ -243,12 +269,14 @@ form div:last-child a {
 #box-partners .text-bottom {
     color: #0069ff;
     padding-top: 10px;
-}
+}*/
 
-.box-loghi img {
+/* LOGHI */
+
+/*.box-loghi img {
     height: 70px;
     width: 100%;
-}
+}*/
 
 /* DEPLOY */
 
