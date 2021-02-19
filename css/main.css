@@ -1,0 +1,577 @@
+/* DEBUG */
+
+[class*="col-"] {
+  /*  min-height:50px;
+    background-color: darkorange;
+    border: 1px solid #000;*/
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    /*debug*/
+   /* background-color: orange;*/
+}
+
+/* REGOLE GENERALI */
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    /*debug*/
+    /*background-color: yellowgreen;*/
+}
+
+.contenitore {
+    width: 80%;
+    margin: 0 auto;
+    /*debug*/
+    /*background-color: hotpink;*/
+}
+
+.row {
+    /*debug*/
+    /*background-color: forestgreen;*/
+}
+
+/* HEADER */
+
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /*debug*/
+    /*background-color: #F5FFFA;*/
+}
+
+header .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+#logo-ocean {
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+.navbar-default {
+    background-color: transparent;
+    padding-top: 5px;
+    font-size: 12px;
+    border: none;
+    /*debug*/
+   /* border: 1px solid red;*/
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+    background-color: #2485fd;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+header nav .btn-default{
+    font-size: 12px;
+    color: #0069ff;
+    border-color: #0069ff;
+}
+
+
+/* MAIN */
+
+main {
+    /*debug*/
+    /*background-color: darkviolet;*/
+    margin-top: 60px;
+}
+
+/* JUMBOTRON */
+
+#jumbo {
+    min-height: 500px;
+    background-image: url(../img/jumbo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    /*debug*/
+    /*background-color: red;*/
+}
+
+.text-jumbo {
+    padding-top: 30px;
+}
+
+.text-jumbo h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.text-jumbo p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* inizio FORM JUMBO */
+
+#box-form {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+.title-form {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.title-form h4:nth-child(2) {
+    color: #0069ff;
+}
+
+form {
+    margin: 0 20px;
+}
+
+.btn-account .btn {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    width: 100%;
+    background-color: #2485fd;
+}
+
+
+.btn-signup {
+    width: 100%;
+    margin: 5px 0;
+    padding: 9px 0;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 2px darkgrey;
+}
+
+.btn-signup img {
+    height: 20px;
+    float:left;
+    margin-left: 20px;
+}
+
+.btn-signup a {
+    text-decoration: none;
+    margin-right: 11%;
+    color: #5B6987;
+    font-weight: bold;
+}
+
+form div:last-child {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+form div:last-child a {
+    color: #0069ff;
+    text-decoration: underline;
+}
+
+/* fine FORM JUMBO */
+
+/* PARTNERS */
+
+#box-partners {
+    background-color: #f3f5f9;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title-partners h6 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #5B6987;
+}
+
+#box-partners .text-bottom {
+    color: #0069ff;
+    padding-top: 10px;
+}
+
+.box-loghi img {
+    height: 70px;
+    width: 100%;
+}
+
+/* DEPLOY */
+
+#box-deploy {
+    padding-bottom: 20px;
+}
+
+#box-deploy, .title-deploy {
+    background-color: white;
+}
+
+.title-deploy {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.title-deploy h2 {
+    padding-bottom: 10px;
+}
+
+.title-deploy p {
+    color: #5B6987;
+}
+
+.box-list {
+    padding: 20px;
+}
+
+.box-list li {
+    list-style-type: none;
+    border-left: 1.5px solid darkgray;
+    padding: 5px 0 10px 10px;
+}
+
+.box-list li a {
+    text-decoration: none;
+    color: #5B6987; /* colore testi paragrafi */
+}
+
+.text-deploy {
+    padding-bottom: 30px;
+}
+
+.text-deploy h5 {
+    padding-top: 10px;
+}
+
+/* DEVELOPERS */
+
+#box-developer {
+    background-color: #f3f5f9;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.title-developer {
+    padding-top: 20px;
+}
+
+.title-developer h2 {
+    text-align: center;
+}
+
+.title-developer p {
+    color: #5B6987;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.ms_box-carousel img{
+    width: 70%;
+    margin: 15px auto;
+}
+
+.ms_box-carousel p{
+    color: #5B6987;
+}
+
+.ms_box-carousel i{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.ms_box-carousel i:first-child {
+    color: lightslategray;
+}
+
+.title-teams {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.title-teams p {
+    color: #5B6987;
+}
+
+/* FEATURES */
+
+#box-features {
+    background-color: white;
+    padding: 30px 0;
+}
+
+.text-features {
+    padding-bottom: 30px;
+}
+
+.text-features h5 {
+    padding-top: 10px;
+}
+
+.text-features p, .text-deploy p, .text-teams p, .text-developers p {
+    color: #5B6987;
+}
+
+.text-features a {
+    color: #0069ff;
+}
+
+.title-features h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* TABELLA CUSTOMERS */
+
+#box-customers {
+    background: rgb(0,0,139);
+    background: linear-gradient(360deg, rgba(0,0,139,1) 0%, rgba(0,65,180,0.9794117476091999) 100%, rgba(0,0,205,1) 100%);
+    padding: 40px 0;
+    /*debug*/
+    /*background-color: #0154ff;*/
+}
+
+.title-customers h2 {
+    text-align: center;
+    color: white;
+}
+
+.box-tabella {
+    padding: 30px 0;
+}
+
+.box-tabella .box-text {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.box-tabella .box-text p {
+    font-size: 11px;
+    line-height: 100%;
+    margin-top: 5px;
+}
+
+.box-text div:first-child {
+    color: white;
+}
+
+.box-text div:nth-child(2) {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.box-tabella .box-text a {
+    font-size: 11px;
+    line-height: 150%;
+    margin-top: 5px;
+}
+
+.box-text {
+    padding-right: 10px;
+}
+
+.box-text:last-child {
+    border-bottom: unset;
+}
+
+.left, .center, .right {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.box-text .right {
+    float: right;
+}
+
+.right a {
+    color: lightseagreen;
+}
+
+/* TEAMS */
+
+#box-teams {
+    background-color: #f3f5f9;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.ms_box-team {
+    display: inline-block;
+    width: 50%;
+    background-color: white;
+    vertical-align: middle;
+    padding: 40px 10px;
+    margin: 20px auto;
+}
+
+.title-teams h2 {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.title-teams p {
+    color: #5B6987;
+    padding-top: 10px;
+}
+
+
+.ms_box-team p:last-child {
+    margin-top: 30px;
+}
+
+.ms_box-team a {
+    color: #0069ff;
+}
+
+/* pallini blu */
+
+.box-circle {
+    padding: 20px 0;
+}
+
+.box-circle i {
+    color: #0154ff;
+    padding-right: 3px;
+}
+
+/* GET STARTED */
+
+#box-getstarted {
+    background: rgb(0,0,139);
+    background: linear-gradient(360deg, rgba(0,0,139,1) 0%, rgba(0,65,180,0.9794117476091999) 100%, rgba(0,0,205,1) 100%);
+    text-align: center;
+    padding: 40px 0;
+    /*debug*/
+    /*background-color: #0154ff;*/
+}
+
+.title-getstarted {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.btn-account button {
+    color: #0154ff;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+#box-footer {
+    background-color: #031b4e;
+    color: #5B6987;
+    padding: 30px 0;
+}
+
+.logo-footer {
+    padding: 30px 0 10px 0;
+}
+
+footer .copy {
+    text-align: left;
+}
+
+.copy span {
+    color: #5B6987;
+}
+
+.social-icons i{
+    font-size: 20px;
+    padding: 0 5px 20px 0;
+}
+
+.footer-list {
+    padding-top: 30px;
+}
+
+.footer-list ul li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.footer-list h5 {
+    color: white;
+    font-weight: bold;
+}
+
+.footer-list ul li a {
+    color: #5B6987;
+}
+
+
+/* MEDIA QUERY */
+
+/* Extra small devices Phones */
+
+@media all and (max-width: 767px) {
+
+    .ms_box-carousel i {
+        display: none;
+    }
+    .ms_box-carousel i {
+        display: none;
+    }
+
+
+    }
+
+
+/* Small devices Tablets  */
+
+@media all and (min-width: 768px){
+
+
+}
+
+
+@media all and (max-width:991px) {
+
+}
+
+
+
+
+@media all and (max-width:991px){
+
+
+}
+
+
+/* Medium devices Desktops */
+
+@media all and (min-width: 992px) {
+
+
+}
+
+
+/* Large devices Desktops */
+
+@media all and (min-width:1200px) {
+
+
+}
