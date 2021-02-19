@@ -358,31 +358,39 @@ form div:last-child a {
 
 /* FEATURES */
 
-#box-features {
-    background-color: white;
-    padding: 30px 0;
-}
-
-.text-features {
-    padding-bottom: 30px;
-}
-
-.text-features h5 {
-    padding-top: 10px;
-}
-
-.text-features p, .text-deploy p, .text-teams p, .text-developers p {
-    color: #5B6987;
-}
-
-.text-features a {
-    color: #0069ff;
-}
-
 .title-features h2 {
     text-align: center;
     padding-bottom: 50px;
 }
+
+.feat_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*#box-features {
+    background-color: white;
+    padding: 30px 0;
+}*/
+
+/*.text-features {
+    padding-bottom: 30px;
+}*/
+
+/*.text-features h5 {
+    padding-top: 10px;
+}*/
+
+/*.text-features p, .text-deploy p, .text-teams p, .text-developers p {
+    color: #5B6987;
+}*/
+
+/*.text-features a {
+    color: #0069ff;
+}*/
+
+
 
 /* TABELLA CUSTOMERS */
 
